@@ -1,0 +1,6 @@
+D:\Aptech 2nd semester\.Net C#\CSExam\Exam\bin\Debug\Exam.exe.config
+D:\Aptech 2nd semester\.Net C#\CSExam\Exam\bin\Debug\Exam.exe
+D:\Aptech 2nd semester\.Net C#\CSExam\Exam\bin\Debug\Exam.pdb
+D:\Aptech 2nd semester\.Net C#\CSExam\Exam\obj\Debug\Exam.csprojResolveAssemblyReference.cache
+D:\Aptech 2nd semester\.Net C#\CSExam\Exam\obj\Debug\Exam.exe
+D:\Aptech 2nd semester\.Net C#\CSExam\Exam\obj\Debug\Exam.pdb
