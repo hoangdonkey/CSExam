@@ -15,8 +15,6 @@ namespace Exam
             pp.addPeople("Dung", true, 29);
             System.Console.WriteLine(pp.display());
             pp.Increment();
-            Console.ReadKey();
-
 
             //Ex2
             Search srch = new Search();
@@ -25,7 +23,9 @@ namespace Exam
             Console.WriteLine("Enter a word to search");
             String aWord = Console.ReadLine();
             int result = Search.SearchString(aString, aWord);
-            Console.WriteLine($"Word found {result} times in the string");
+            Console.WriteLine("The word \"" + aWord + "\" was found " + result + " times in the string");
+
+            Console.ReadKey();
         }
     }
 }

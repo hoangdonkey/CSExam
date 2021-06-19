@@ -3,25 +3,14 @@ namespace Exam
 {
     public class Search
     {
-        public static void run()
+        public Search()
         {
-            Console.WriteLine("Enter a String");
-            string aString = Console.ReadLine();
-            Console.WriteLine("Enter a word to search");
-            string aWord = Console.ReadLine();
-            int result = AllIndexesOf(aString, aWord);
-            Console.WriteLine($"Word found {result} times in the string");
         }
-        public static int AllIndexesOf(string str, string substr)
+        public static int SearchString(string str, string word)
         {
-            if (string.IsNullOrWhiteSpace(str) ||
-                string.IsNullOrWhiteSpace(substr))
-            {
-                throw new ArgumentException("String or substring is not specified.");
-            }
             int index = 0;
             int count = 0;
-            while ((index = str.IndexOf(substr, index, StringComparison.OrdinalIgnoreCase)) != -1)
+            while ((index = str.IndexOf(word, index, StringComparison.OrdinalIgnoreCase)) != -1)
             {
                 index++;
                 count++;
